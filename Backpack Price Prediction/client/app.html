@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Backpack Price Predictor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+    <h2>Brand</h2>
+    <select class="form-control" id="uiBrand">
+        <option value="" disabled selected>Select Brand</option>
+    </select>
+    
+    <h2>Material</h2>
+    <select class="form-control" id="uiMaterial">
+        <option value="" disabled selected>Select Material</option>
+    </select>
+    
+    <h2>Size</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-size-small" name="uiSize" value="Small">
+        <label for="radio-size-small">Small</label>
+        <input type="radio" id="radio-size-medium" name="uiSize" value="Medium" checked>
+        <label for="radio-size-medium">Medium</label>
+        <input type="radio" id="radio-size-large" name="uiSize" value="Large">
+        <label for="radio-size-large">Large</label>
+    </div>
+    
+    <h2>Compartments</h2>
+    <input class="form-control" type="number" id="uiCompartments" min="1" value="3" required>
+    
+    <h2>Laptop Compartment</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-laptop-yes" name="uiLaptop" value="Yes">
+        <label for="radio-laptop-yes">Yes</label>
+        <input type="radio" id="radio-laptop-no" name="uiLaptop" value="No" checked>
+        <label for="radio-laptop-no">No</label>
+    </div>
+    
+    <h2>Waterproof</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-waterproof-yes" name="uiWaterproof" value="Yes">
+        <label for="radio-waterproof-yes">Yes</label>
+        <input type="radio" id="radio-waterproof-no" name="uiWaterproof" value="No" checked>
+        <label for="radio-waterproof-no">No</label>
+    </div>
+    
+    <h2>Style</h2>
+    <select class="form-control" id="uiStyle">
+        <option value="" disabled selected>Select Style</option>
+    </select>
+    
+    <h2>Color</h2>
+    <select class="form-control" id="uiColor">
+        <option value="" disabled selected>Select Color</option>
+    </select>
+    
+    <h2>Weight Capacity (kg)</h2>
+    <input class="form-control" type="number" id="uiWeight" step="0.1" min="0.1" value="12.5" required>
+    
+    <button class="submit-btn" type="button" onclick="onClickedEstimatePrice()">Estimate Price</button>
+    <div id="uiEstimatedPrice" class="result-container"></div>
+</form>
+</body>
+</html>
