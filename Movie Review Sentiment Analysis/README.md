@@ -14,6 +14,7 @@ A deep learning model that classifies IMDB movie reviews as positive or negative
 - **Accuracy**: 85% on test set
 - **Features**: Text preprocessing, word embeddings, sentiment classification
 - **Deployment**: Live Gradio interface on [Hugging Face Spaces](https://huggingface.co/spaces/Anvarbekk/sentiment_analysis_imdb)
+- **Dataset**: [Kaggle] (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/code?datasetId=134715&sortBy=voteCount)
 
 ## 📋 Dataset
 - **Source**: IMDB Dataset (50,000 reviews)
