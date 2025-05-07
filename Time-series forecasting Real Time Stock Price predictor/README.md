@@ -1,6 +1,6 @@
 # Real-Time Stock Predictor (Time-Series forecasting) 🚀📈
 
-A deep learning application that predicts stock prices using LSTM neural networks, deployed on Hugging Face Spaces.
+A deep learning application that predicts stock prices using LSTM neural networks, deployed on Hugging Face Spaces. 
 ## Deployed here press below to see website
 (https://huggingface.co/spaces/Anvarbekkk/real-time-stock-predictor)
 ![sc1](https://github.com/user-attachments/assets/d96049a2-947d-43e0-b29a-bed512e7241b)
@@ -13,7 +13,7 @@ Due to the large size of the `stock_price_predictor_model.ipynb` file, it has be
 
 
 ## Features ✨
-
+- **Dataset**: It downloads dataset real time from yahoo finance
 - **LSTM Model**: Uses a 3-layer LSTM network for accurate stock price prediction
 - **Technical Analysis**: Includes SMA indicators (50-day and 200-day)
 - **Interactive Visualization**: Plotly graphs for price history and predictions
