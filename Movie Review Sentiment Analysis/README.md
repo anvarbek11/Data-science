@@ -34,7 +34,6 @@ Epoch	Training Accuracy	Validation Accuracy
 * 5	        92.73%	       85.03%
 ## 🚀 How to Use
 - **Clone the repository**:
-  git clone https://github.com/yourusername/imdb-sentiment-analysis.git
 cd imdb-sentiment-analysis
 - **Install requirements**:pip install -r requirements.txt
 - **Run Jupyter notebook**:jupyter notebook IMDB_Sentiment_Analysis.ipynb
