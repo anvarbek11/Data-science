@@ -6,7 +6,7 @@
 
 An interactive machine learning system that detects fraudulent credit card transactions in real-time using anomaly detection algorithms.
 
-➡️ **Live Demo**: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
+➡️ **Live Demo**: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-card-fraud-detection-dufdbkc4mbhq6kcndxhrqn.streamlit.app/)
 ![1](https://github.com/user-attachments/assets/05e1e8f1-3ee3-436f-bc99-3fc2ade07fcf)
 
 ## ✨ Features
