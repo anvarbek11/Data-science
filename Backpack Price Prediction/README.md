@@ -43,20 +43,8 @@ An end-to-end machine learning system that predicts backpack prices based on pro
 - Allow inbound HTTP (80) traffic
 - Open SSH port (22) for management
 
-### Nginx Configuration
-/etc/nginx/sites-available/backpack:
-
-server {
-    listen 80;
-    server_name your-ec2-public-dns;
-    
-    root /home/ubuntu/backpack-price-predictor/client;
-    index index.html;
-    
-    location /api/ {
-        proxy_pass http://127.0.0.1:5000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
+---
+📌 **Author**: Anvarbek Kuziboev  
+📄 **Note**: This project is part of my personal portfolio.  
+🚫 Unauthorized copying or use without attribution is not permitted.
 
